@@ -1,10 +1,16 @@
 import streamlit as st
 
-# Configuração da página
-st.set_page_config(page_title="Análise de Quebra de Safra", page_icon="🌾")
+# Configuração da página - Ícone alterado para remeter à planta/soja
+st.set_page_config(page_title="Análise de Quebra de Safra", page_icon="🌱")
 
-# Título Principal - Agora mais focado no produtor
+# Título Principal
 st.title("🌾 Análise de Quebra de Safra")
+
+# Imagem que remete à soja e ao campo
+st.image("https://images.unsplash.com/photo-1594751439417-df9391030915?q=80&w=1000", 
+         caption="Gestão de Riscos e Crédito Rural no Mato Grosso", 
+         use_container_width=True)
+
 st.write("Calcule o impacto financeiro na sua safra e veja se você tem direito à prorrogação de dívidas.")
 st.markdown("---")
 

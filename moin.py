@@ -6,7 +6,7 @@ st.set_page_config(page_title="Calculadora MCR 2-6-4", page_icon="🌾")
 
 # --- CONEXÃO COM A PLANILHA ---
 # Substitua o ID abaixo pelo ID da sua planilha (está no link entre /d/ e /edit)
-sheet_id = "COLOQUE_AQUI_O_ID_DA_SUA_PLANILHA"
+sheet_id = 1hW-FlQsJA1FPobiFtl7CTjQQvfoYcutTh6mIKDxFMF8
 sheet_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
 
 @st.cache_data(ttl=3600) # Atualiza os dados a cada 1 hora
@@ -59,3 +59,4 @@ else:
     st.success(f"✅ SITUAÇÃO REGULAR: Quebra de {quebra:.1f}%")
 
 st.info("Os dados acima são sincronizados com a planilha de indicadores oficiais.")
+
